@@ -1,0 +1,41 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'net.acidforge.webapiclient'
+
+install {
+    repositories.mavenInstaller {
+        pom {
+            project {
+                packaging 'aar'
+                groupId 'net.acidforge.webapiclient'
+                artifactId 'webapiclient'
+
+                // Add your description here
+                name 'webapiclient'
+                description 'WebApi Http Client for Android Apps'
+                url 'https://github.com/acidforge/aspnetwebapiclient'
+
+                // Set your license
+                licenses {
+                    license {
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'acidforge'
+                        name 'Moises Goncalves'
+                        email 'jmoisespg@gmail.com'
+                    }
+                }
+                scm {
+                    connection 'https://github.com/acidforge/aspnetwebapiclient'
+                    developerConnection 'https://github.com/acidforge/aspnetwebapiclient'
+                    url 'https://github.com/acidforge/aspnetwebapiclient'
+
+                }
+            }
+        }
+    }
+}

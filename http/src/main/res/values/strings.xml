@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WebApiClient</string>
+    <string name="exception_undefined_address">Undefined address for the desired HttpRequest.</string>
+</resources>
