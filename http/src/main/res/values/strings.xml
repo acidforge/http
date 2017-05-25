@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">WebApiClient</string>
     <string name="exception_undefined_address">Undefined address for the desired HttpRequest.</string>
+    <string name="exception_undefined_base_url">BASE_URL is undefined, you must define it at least once for whole App context in order to avoid this exception.</string>
+    <string name="exception_undefined_url">The URL was undefined or there was a failure decoding it.</string>
+    <string name="exception_method_not_overriden">Method is not overriden and needs a proper @Override on the subclass!</string>
 </resources>
